@@ -21,7 +21,6 @@ const Auth = () => {
     } catch (err) {
       console.error(err);
     }
-
   }
 
   const signInWithGoogle = async () => {
@@ -59,9 +58,7 @@ const Auth = () => {
         <>
           <h1> {UserEmail}</h1>
           <img src={UserPic} alt="UserPic" />
-        </>
-      }
-
+        </>}
     </>
   )
 }
