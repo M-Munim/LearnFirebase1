@@ -47,8 +47,8 @@ const Auth = () => {
 
   return (
     <>
-      <input type="email" placeholder='Enter Email' value={email} onChange={(e) => setEmail(e.target.value)} /> <br /> <br />
-      <input type="password" placeholder='Enter Password' value={password} onChange={(e) => setPassword(e.target.value)} /> <br /> <br />
+      <input type="email" placeholder='Enter Email' value={email} onChange={(e) => setEmail(e.target.value)} /> &nbsp;
+      <input type="password" placeholder='Enter Password' value={password} onChange={(e) => setPassword(e.target.value)} />&nbsp;
       <button onClick={signIn}>Sign In</button > &nbsp;
       <button onClick={signInWithGoogle}>Sign In With Google</button > &nbsp;
       <button onClick={logout}>Sign Out</button>
